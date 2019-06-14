@@ -1,2 +1,2 @@
-# ibmcommunity
-Tutorials for each of the Technology channels in IBM Community
+# IBM Community
+Tutorials for each of the Technology channels in the IBM Community Discord server.
