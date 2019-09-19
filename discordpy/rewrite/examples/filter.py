@@ -1,6 +1,6 @@
 '''
 Add before command handlers & event handlers but after definitions.
-Then add "filter(message)" under the on_message(message) event handler
+Then add our code under the on_message(message) event handler to yours
 
 '''
 def filter(message):
@@ -11,7 +11,7 @@ def filter(message):
     '''
     cFilter = False
     textFilter = ["WORDS", "TO", "FILTER"]
-    contents = message.content.translate({ord(i): None for i in '"`_*~.?!-<>[\/()]{}'}).split()
+    contents = message.content.translate({ord(i): None for i in '"`_*~.?!-<>[\/()]{}'}).split() #Makes things a tad bit more tricky to bypass, also ignore formatting
     index = 0
     for word in contents:
         if word.upper() in textFilter:
@@ -36,5 +36,7 @@ def filter(message):
     
 @client.event()
 def on_message(message):
-    filter(message)
+    isFiltered = filter(message) #Returns true for is filtered; False for not filtered;
+    if isFiltered: #If the result is True then
+        await message.delete(delay=None) #Delete the message instantly
     #Rest of your code below here
