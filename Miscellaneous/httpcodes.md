@@ -12,5 +12,7 @@ These are usually memes or relevant to current server events.
 - 907 `Donald Trump AI`
 - 908 `Hacking The Box`
 - 909 `Reinventing The Wheel`
+- 910 `Common Sense Not Found`
+- 912 `Negative IQ`
 
 Obviously there's plans for more, we just haven't gotten there yet.
