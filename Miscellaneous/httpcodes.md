@@ -15,5 +15,7 @@ These are usually memes or relevant to current server events.
 - 910 `Common Sense Not Found`
 - 912 `Negative IQ`
 - 913 `SMP not working`
+- 914 `ffs OVH`
+- 915 `OVH pls`
 
 Obviously there's plans for more, we just haven't gotten there yet.
