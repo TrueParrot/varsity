@@ -2,9 +2,9 @@
 Source code for tutorial Discord bots and location of the rewrite tutorials from FoggyIO.
 
 ## Dependencies 
-`pip3 install discord`
-https://github.com/Rapptz/discord.py
-Official Documentation Link: https://discordpy.readthedocs.io/en/latest/
+- `pip3 install discord`
+- https://github.com/Rapptz/discord.py
+- Official Documentation Link: https://discordpy.readthedocs.io/en/latest/
 
 ## Before Getting Started
 Please familiarize yourself with the Python programming language.
