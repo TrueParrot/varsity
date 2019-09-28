@@ -17,5 +17,6 @@ These are usually memes or relevant to current server events.
 - 913 `SMP not working`
 - 914 `ffs OVH`
 - 915 `OVH pls`
+- 916 `1.1.1.1 WARP Drive Not Working`
 
 Obviously there's plans for more, we just haven't gotten there yet.
