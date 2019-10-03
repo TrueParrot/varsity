@@ -21,5 +21,6 @@ These are usually memes or relevant to current server events.
 - 917 `This is fine`
 - 918 `Elevated Error Rate Connecting and Sending Messages`
 - 919 `I'm a firework 𒅃`
-
+- 920 `Treason` 
+- 921 `A Walking Pumpkin`
 Obviously there's plans for more, we just haven't gotten there yet.
