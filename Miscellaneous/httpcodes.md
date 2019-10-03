@@ -20,5 +20,6 @@ These are usually memes or relevant to current server events.
 - 916 `1.1.1.1 WARP Drive Not Working`
 - 917 `This is fine`
 - 918 `Elevated Error Rate Connecting and Sending Messages`
+- 919 `I'm a fucking firework 𒅃`
 
 Obviously there's plans for more, we just haven't gotten there yet.
