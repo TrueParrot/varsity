@@ -23,5 +23,6 @@ These are usually memes or relevant to current server events.
 - 919 `I'm a firework 𒅃`
 - 920 `Treason` 
 - 921 `A Walking Pumpkin`
+- 999 `Code does not exist`
 
 Obviously there's plans for more, we just haven't gotten there yet.
