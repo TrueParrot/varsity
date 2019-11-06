@@ -23,6 +23,7 @@ These are usually memes or relevant to current server events.
 - 919 `I'm a firework 𒅃`
 - 920 `Treason` 
 - 921 `A Walking Pumpkin`
+- 422 `CheeseWheel`
 - 423 `Terminated User - Mocking`
 - 999 `Code does not exist`
 
