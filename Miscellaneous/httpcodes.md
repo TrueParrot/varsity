@@ -25,6 +25,7 @@ These are usually memes or relevant to current server events.
 - 921 `A Walking Pumpkin`
 - 422 `CheeseWheel`
 - 423 `Terminated User - Mocking`
+- 424 `All Systems Operational`
 - 999 `Code does not exist`
 
 Obviously there's plans for more, we just haven't gotten there yet.
