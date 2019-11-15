@@ -26,6 +26,7 @@ These are usually memes or relevant to current server events.
 - 922 `CheeseWheel`
 - 923 `Terminated User - Mocking`
 - 924 `All Systems Operational`
+- 925 `Everything is Fine!`
 - 999 `Code does not exist`
 
 Obviously there's plans for more, we just haven't gotten there yet.
