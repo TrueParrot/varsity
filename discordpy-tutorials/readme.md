@@ -1,5 +1,5 @@
 # Python Discord Bots
-Source code for tutorial Discord bots and location of the rewrite tutorials from FoggyIO.
+Source code for tutorial Discord bots and location of the discord.py tutorials from FoggyIO.
 
 ## Dependencies 
 - **Install Command**: `pip3 install discord.py`
