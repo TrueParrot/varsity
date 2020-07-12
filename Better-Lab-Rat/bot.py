@@ -160,23 +160,21 @@ async def lock(ctx, time: int=None):
     perms = default.permissions
     perms.send_messages = False
     await default.edit(permissions=perms)
-
     if time == None:
         embed = discord.Embed(title="Server Locked",
                               description=f"The server has been locked by {ctx.author.name}",
                               color=0xFF5555)
+        await ctx.send(embed=embed)
     else:
         embed = discord.Embed(title="Server Locked",
                               description=f"The server has been locked by {ctx.author.name} for **{time} minutes**.",
                               color=0xFF5555)
-    msg = await ctx.send(embed=embed)
-
-    if time != None:
+        msg = await ctx.send(embed=embed)
         await asyncio.sleep(time*60)
         perms.send_messages = True
         await default.edit(permissions=perms)
         await msg.delete()
-
+    
 @client.command()
 @staff_check()
 async def unlock(ctx):
