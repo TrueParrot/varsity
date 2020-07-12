@@ -4,17 +4,17 @@ import time
 import asyncio
 import sqlite3
 
-#This is a rewrite of the Lab Rat bot used in The Labs.
-#It is probably far from perfect but it's much better than the original.
-#I didn't bother to rewrite reports as it would've taken too long for a little project rewriting a dead bot.
-#Feel free to use this code or make changes to it.
+# This is a rewrite of the Lab Rat bot used in The Labs.
+# It is probably far from perfect but it's much better than the original.
+# I didn't bother to rewrite reports as it would've taken too long for a little project rewriting a dead bot.
+# Feel free to use this code or make changes to it.
 
 client           = commands.Bot(command_prefix="!", case_insensitive=True)
 client.flag      = ""
 client.challenge = ""
 client.cooldowns = []
 
-client.remove_command("help") # remove default help command to replace with our own
+client.remove_command("help") # Remove default help command to replace with our own
 
 """Database Functions"""
 # Preserved from original Lab Rat
@@ -84,9 +84,9 @@ async def on_command_error(ctx, error):
         await ctx.send(embed=embed)
 
 """Custom Check"""
-#Checks if the user has the 'Staff' role before they can run the command
-#Better to do it with a custom check rather than the has_permissions check
-#since I can get it by role name
+# Checks if the user has the 'Staff' role before they can run the command
+# Better to do it with a custom check rather than the has_permissions check
+# since I can get it by role name
 def staff_check():
     async def predicate(ctx):
         staff_role = discord.utils.get(ctx.author.roles, name="Staff")
