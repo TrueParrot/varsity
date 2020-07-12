@@ -9,12 +9,12 @@ import sqlite3
 #I didn't bother to rewrite reports as it would've taken too long for a little project rewriting a dead bot.
 #Feel free to use this code or make changes to it.
 
-client = commands.Bot(command_prefix="!", case_insensitive=True)
-client.remove_command("help")
-client.flag = ""
+client           = commands.Bot(command_prefix="!", case_insensitive=True)
+client.flag      = ""
 client.challenge = ""
+client.cooldowns = []
 
-cooldowns = []
+client.remove_command("help") # remove default help command to replace with our own
 
 """Database Functions"""
 # Preserved from original Lab Rat
