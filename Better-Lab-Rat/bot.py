@@ -21,16 +21,16 @@ client.remove_command("help") # Remove default help command to replace with our 
 # I actually liked this code until
 # I switched to PostgreSQL
 
-def execute_query(table, query):
-    conn = sqlite3.connect(table) 
+def execute_query(database, query):
+    conn = sqlite3.connect(database) 
     c = conn.cursor()
     c.execute(query)
     conn.commit()
     c.close()
     conn.close()
 
-def db_query(table, query):
-    conn = sqlite3.connect(table)
+def db_query(database, query):
+    conn = sqlite3.connect(database)
     c = conn.cursor()
     c.execute(query)
     result = c.fetchall()
