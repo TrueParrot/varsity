@@ -1,4 +1,4 @@
-# The HTTP Codes in IBM Community.
+# The HTTP Codes in Varsity 4.0.
 These are usually memes or relevant to current server events.
 
 ## The List
