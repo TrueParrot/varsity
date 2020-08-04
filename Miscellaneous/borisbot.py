@@ -18,7 +18,7 @@ async def on_ready():
 @client.event
 async def on_message(msg):
     if "boris" in msg.content.lower():
-        message_to_send = requests.get('bojo.maurom.dev').json()['quote']
+        message_to_send = requests.get('https://bojo.maurom.dev').json()['quote']
         await msg.channel.send(message_to_send)
 
 client.run("token")
